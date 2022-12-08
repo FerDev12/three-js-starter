@@ -1,6 +1,6 @@
 import { Scene } from 'three';
-import Camera from './base/Camera';
-import Renderer from './base/Renderer';
+import Camera from './setup/Camera';
+import Renderer from './setup/Renderer';
 import Debug from './utils/Debug';
 import Sizes from './utils/Sizes';
 import Time from './utils/Time';

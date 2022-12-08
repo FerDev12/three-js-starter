@@ -1,4 +1,4 @@
-import Environment from './Environment';
+import Environment from '../setup/Environment';
 import Torus from './Torus';
 
 /**
