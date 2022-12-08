@@ -8,5 +8,5 @@ if (WebGL.isWebGLAvailable()) {
   experience.play();
 } else {
   const warning = WebGL.getWebGLErrorMessage();
-  document.getElementById('container').appendChild(warning);
+  console.error(warning);
 }
